@@ -1,2 +1,2 @@
-var amplia = 'amplia la ',
+var amplia = 'Amplía la ',
     experiencia = 'experiencia de usuario';
