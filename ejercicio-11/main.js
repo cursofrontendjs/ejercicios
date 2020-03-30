@@ -1,9 +1,12 @@
-function palindromo(texto) {
-    var textoJunto = texto.split(" ").join("").toLowerCase();
-    var dadoVuelta = textoJunto.split("").reverse().join("");
-    if (textoJunto == dadoVuelta) {
-        console.log("es un palíndromo");
+function mayusculasMinusculas(texto) {
+    var minusculas = texto.toLowerCase();
+    var mayusculas = texto.toUpperCase();
+
+    if (texto == minusculas) {
+        console.log('todas son minusculas');
+    } else  if (texto == mayusculas) {
+        console.log('todas son mayusculas');
     } else {
-        console.log("no es un palíndromo");
+        console.log('es una mezcla');
     }
-}
+} 
