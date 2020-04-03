@@ -17,4 +17,5 @@ document.getElementById("desaparecer").addEventListener('click', function() {
     y: -100, 
     stagger: 0.1,
     ease: "power1"
-})});
+  })
+});
